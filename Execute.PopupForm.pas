@@ -11,8 +11,7 @@ interface
 
 uses
   LCLType,
-  Windows,
-  Messages, lmessages,
+  Classes,
   Controls,
   Forms;
 
@@ -30,8 +29,6 @@ type
   protected
   // force default setting and initialize FAppEvents
     procedure InitializeWnd; override;
-  // add shadow
-    procedure CreateParams(var Params: TCreateParams); override;
   public
     destructor Destroy; override;
   // popup the form at the specified position
@@ -43,17 +40,6 @@ type
 implementation
 
 { TPopupForm }
-
-procedure TPopupForm.CreateParams(var Params: TCreateParams);
-begin
-  inherited;
-// we want a nice shadow effect
-  Params.WindowClass.Style := Params.WindowClass.Style or CS_DROPSHADOW;
-// hide the form from the TaskBar
-  Params.ExStyle := Params.ExStyle or WS_EX_TOOLWINDOW;
-// set parent to 0 or the shadow effect is lost when the form is active
-  Params.WndParent := 0;
-end;
 
 destructor TPopupForm.Destroy;
 begin
@@ -79,6 +65,8 @@ begin
 // force properties so you don't have to set them at design time
   BorderStyle := bsNone;
   Position := poDesigned;
+// hide the form from the TaskBar
+  Self.ShowInTaskBar := stNever;
 
   OnDeactivate := DoDeactivate;
   Application.AddOnDeactivateHandler(DoDeactivateApp);
@@ -107,8 +95,6 @@ begin
 // move the form to the desired position
   Left := Position.X;
   Top := Position.Y;
-// show the form without activation
-  ShowWindow(Handle, SW_SHOWNOACTIVATE);
 // VCL sync
   Visible := True;
 end;

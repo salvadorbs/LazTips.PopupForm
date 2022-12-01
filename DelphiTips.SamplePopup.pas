@@ -5,7 +5,7 @@ unit DelphiTips.SamplePopup;
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  SysUtils, Variants, Classes, Graphics, LCLType,
   Controls, Forms, Dialogs, StdCtrls, Execute.PopupForm,
   DelphiTips.SampleList;
 

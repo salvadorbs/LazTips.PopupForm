@@ -5,7 +5,7 @@ unit DelphiTips.PopupForm.Main;
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  SysUtils, Variants, Classes, Graphics, LCLType,
   Controls, Forms, Dialogs, StdCtrls, DelphiTips.SampleList,
   DelphiTips.SamplePopup;
 
