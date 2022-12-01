@@ -3,8 +3,8 @@ unit DelphiTips.SampleList;
 interface
 
 uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, Dialogs, StdCtrls,
   Execute.PopupForm;
 
 type
@@ -12,9 +12,9 @@ type
     ListBox1: TListBox;
     procedure ListBox1DblClick(Sender: TObject);
   private
-    { Déclarations privées }
+    { DÃ©clarations privÃ©es }
   public
-    { Déclarations publiques }
+    { DÃ©clarations publiques }
     Edit: TEdit;
     procedure OnKey(var Key: Word);
   end;
@@ -24,13 +24,15 @@ var
 
 implementation
 
-{$R *.dfm}
+{$R *.lfm}
 
 { TSampleList }
 
 procedure TSampleList.ListBox1DblClick(Sender: TObject);
+var
+  Index: Integer;
 begin
-  var Index := ListBox1.ItemIndex;
+  Index := ListBox1.ItemIndex;
   if Assigned(Edit) and (Index >= 0) then
   begin
     Edit.Text := ListBox1.Items[Index];
@@ -39,8 +41,10 @@ begin
 end;
 
 procedure TSampleList.OnKey(var Key: Word);
+var
+  Index: Integer;
 begin
-  var Index := ListBox1.ItemIndex;
+  Index := ListBox1.ItemIndex;
   case Key of
     VK_DOWN:
       if Index < ListBox1.Items.Count - 1 then

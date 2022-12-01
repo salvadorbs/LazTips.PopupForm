@@ -1,7 +1,10 @@
 program Project1;
 
+{$MODE Delphi}
+
 uses
-  Vcl.Forms,
+  Interfaces,
+  Forms,
   DelphiTips.PopupForm.Main in 'DelphiTips.PopupForm.Main.pas' {Form1},
   Execute.PopupForm in 'Execute.PopupForm.pas',
   DelphiTips.SampleList in 'DelphiTips.SampleList.pas' {SampleList},

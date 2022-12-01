@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="14" Y="6"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="DelphiTips.PopupForm.Main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="47"/>
+        <CursorPos X="25" Y="10"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="61"/>
+        <CursorPos Y="68"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="DelphiTips.SampleList.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SampleList"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="33"/>
+        <CursorPos X="9" Y="16"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="DelphiTips.SamplePopup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SamplePopup"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="45"/>
+        <CursorPos X="23" Y="23"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="1376"/>
+        <CursorPos X="29" Y="1391"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\fpcsrc\rtl\win\wininc\messages.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1506"/>
+        <CursorPos X="33" Y="1523"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1334"/>
+        <CursorPos X="56" Y="1350"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\lazarus\lcl\lmessages.pp"/>
+        <UnitName Value="LMessages"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="624"/>
+        <CursorPos X="3" Y="641"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="27" Column="15" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="34" Column="30" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="33" Column="78" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="175" Column="5" TopLine="153"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="31" Column="38" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="15" Column="23" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="33" Column="40" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="99" Column="37" TopLine="82"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="27" Column="23" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="99" Column="50" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="86" Column="11" TopLine="82"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="29" Column="27" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="160" Column="5" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="30" Column="22" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="72" Column="13" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="24" Column="10" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="27" Column="19" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="148" Column="33" TopLine="119"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="76" Column="33" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="77" Column="38" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="76" Column="24" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="28" Column="15" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="66" Column="42" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\lazarus\lcl\forms.pp"/>
+        <Caret Line="1635" Column="76" TopLine="1619"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\lazarus\lcl\forms.pp"/>
+        <Caret Line="1391" Column="29" TopLine="1376"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\lazarus\lcl\forms.pp"/>
+        <Caret Line="1635" Column="107" TopLine="1609"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="75" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="28" Column="15" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="66" Column="26" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="Execute.PopupForm.pas"/>
+        <Caret Line="84" Column="53" TopLine="60"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="Execute.PopupForm.pas"/>
+        <Line Value="68"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>
