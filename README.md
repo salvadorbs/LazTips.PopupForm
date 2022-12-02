@@ -1,8 +1,8 @@
-# DelphiTips.PopupForm
-Delphi demonstration for simple generic PopupForm
+# LazTips.PopupForm
+Lazarus demonstration for simple generic PopupForm
 
-made with Delphi 11 and standard controls
+made with FPC + Lazarus
 
-use any Form as a PopupForm by changing it's ancestor and call ShowPopup()
+use any Form as a PopupForm by changing its ancestor and call ShowPopup()
 
 ![LinkEdit](demo.gif)
